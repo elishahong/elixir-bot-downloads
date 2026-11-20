@@ -6,12 +6,12 @@ Once it is installed, the app **updates itself**: when a newer version is publis
 
 ## Which file do I need?
 
-### EliXir Bot (uses an AI service you have a key for)
+### EliXir Bot (uses an AI service you have a key for: OpenAI or Alibaba Cloud)
 
 | Your computer | Download |
 |---|---|
-| Mac bought in late 2020 or after (Apple chip: M1, M2, M3, M4…) | [EliXir-Bot-0.1.0-arm64.pkg](https://github.com/elishahong/elixir-bot-downloads/releases/latest/download/EliXir-Bot-0.1.0-arm64.pkg) |
-| Older Mac with an Intel chip | [EliXir-Bot-0.1.0-x64.pkg](https://github.com/elishahong/elixir-bot-downloads/releases/latest/download/EliXir-Bot-0.1.0-x64.pkg) |
+| Mac bought in late 2020 or after (Apple chip: M1, M2, M3, M4…) | [EliXir-Bot-0.1.0-arm64.dmg](https://github.com/elishahong/elixir-bot-downloads/releases/latest/download/EliXir-Bot-0.1.0-arm64.dmg) |
+| Older Mac with an Intel chip | [EliXir-Bot-0.1.0-x64.dmg](https://github.com/elishahong/elixir-bot-downloads/releases/latest/download/EliXir-Bot-0.1.0-x64.dmg) |
 | Windows PC | [EliXir-Bot-Setup-0.1.0.exe](https://github.com/elishahong/elixir-bot-downloads/releases/latest/download/EliXir-Bot-Setup-0.1.0.exe) |
 
 ### EliXir SHllm (the AI model is built in; nothing leaves your computer)
@@ -23,14 +23,29 @@ Once it is installed, the app **updates itself**: when a newer version is publis
 
 **Not sure which Mac you have?** Click the Apple logo at the top left, then "About This Mac". "Chip: Apple M…" means Apple chip. "Processor: … Intel …" means Intel.
 
-## Installing
+## Installing on a Mac
 
-Close EliXir Bot first if it is open, then double-click the file. Your agents and their sign-ins are kept.
+1. Double-click the `.dmg` file. A window opens.
+2. Drag **EliXir Bot** onto the Applications folder in that window.
+3. Open EliXir Bot from Applications.
+4. The first time, the Mac says it could not check the app. That is expected: the app is not registered with Apple yet. Press **Done**, then open **System Settings → Privacy & Security**, scroll down to the line about EliXir Bot, and press **Open Anyway**. (On older Macs: right-click the app, choose Open, then Open.)
 
-The apps are not signed with an Apple or Microsoft certificate yet, so the first time:
+You only do step 4 once.
 
-- **Mac:** if it says the file cannot be opened, right-click it, choose Open, then Open again.
-- **PC:** on the blue "Windows protected your PC" screen, click "More info", then "Run anyway".
+## Installing on a Windows PC
+
+1. Double-click the `.exe` file.
+2. On the blue "Windows protected your PC" screen, click **More info**, then **Run anyway**.
+
+Nothing else is needed: **no Docker**. Your agents work on the PC itself, each with its own hidden browser.
+
+## First start
+
+The app asks for one API key, which is what lets your agents think: an **OpenAI** key or an **Alibaba Cloud** (Model Studio) key. Paste it and press Start.
+
+## Updating
+
+Installed apps update themselves. To install a newer file by hand, close EliXir Bot first, then install it the same way. Your agents and their sign-ins are kept.
 
 ## Older versions
 
