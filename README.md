@@ -32,6 +32,8 @@ Once it is installed, the app **updates itself**: when a newer version is publis
 
 You only do step 4 once.
 
+Nothing else is needed: **no Docker**. On a Mac with an Apple chip your agents work on the Mac itself, each with its own hidden browser. (The Intel-Mac file still sets up its own small Linux computer the first time, which takes about 15 minutes.)
+
 ## Installing on a Windows PC
 
 1. Double-click the `.exe` file.
