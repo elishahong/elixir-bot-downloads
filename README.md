@@ -6,7 +6,7 @@ Once it is installed, the app **updates itself**: when a newer version is publis
 
 ## Which file do I need?
 
-### EliXir Bot (uses an AI service you have a key for: OpenAI or Alibaba Cloud)
+### EliXir Bot (uses an AI service you have a key for: OpenAI, Alibaba Cloud or Kimi)
 
 | Your computer | Download |
 |---|---|
